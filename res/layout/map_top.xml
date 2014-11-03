@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+	android:layout_width="fill_parent"
+	android:layout_height="0dip"
+	android:layout_weight="90"
+	android:gravity="center_vertical"
+	android:background="@color/black">
+	<TextView 
+		android:id="@+id/map_top_title" 
+		android:layout_width="fill_parent" 
+		android:layout_height="fill_parent" 
+		android:gravity="center" 
+		android:singleLine="true" 
+		android:ellipsize="marquee" 
+		android:text="@string/app_name" 
+		android:textAppearance="?android:attr/textAppearanceMedium" />
+</RelativeLayout>

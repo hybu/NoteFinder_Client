@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="18"
+        android:background="#00000000"
+        android:gravity="bottom"
+        android:scaleType="fitEnd"
+        android:src="#00000000" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="456"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="87"
+            android:background="#00000000"
+            android:gravity="bottom"
+            android:scaleType="fitEnd"
+            android:src="#00000000" />
+
+        <ImageButton
+            android:id="@+id/map_tab_1"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="244"
+            android:background="#00000000"
+            android:gravity="bottom"
+            android:scaleType="fitEnd"
+            android:src="@drawable/tab_personal" />
+
+        <ImageView
+            android:layout_height="wrap_content"
+            android:layout_weight="82"
+            android:layout_width="0dp"
+            android:background="#00000000"
+            android:gravity="bottom"
+            android:scaleType="fitEnd"
+            android:src="#00000000" />
+
+        <ImageButton
+            android:id="@+id/map_tab_2"
+            android:layout_height="fill_parent"
+            android:layout_weight="456"
+            android:layout_width="0dp"
+            android:background="#00000000"
+            android:gravity="bottom"
+            android:scaleType="centerInside"
+            android:src="@drawable/tab_box" />
+
+        <ImageView
+            android:layout_height="wrap_content"
+            android:layout_weight="82"
+            android:layout_width="0dp"
+            android:background="#00000000"
+            android:gravity="bottom"
+            android:scaleType="fitEnd"
+            android:src="#00000000" />
+
+        <ImageButton
+            android:id="@+id/map_tab_3"
+            android:layout_height="wrap_content"
+            android:layout_weight="244"
+            android:layout_width="0dp"
+            android:background="#00000000"
+            android:gravity="bottom"
+            android:scaleType="fitEnd"
+            android:src="@drawable/tab_champion" />
+
+        <ImageView
+            android:layout_height="wrap_content"
+            android:layout_weight="87"
+            android:layout_width="0dp"
+            android:background="#00000000"
+            android:gravity="bottom"
+            android:scaleType="fitEnd"
+            android:src="#00000000" />
+    </LinearLayout>
+
+</LinearLayout>
+<!--
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_weight="18"
+        android:background="#00000000"
+        android:gravity="bottom"
+        android:scaleType="fitEnd"
+        android:src="#00000000" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_weight="456"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/map_tab_2"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="bottom"
+            android:background="#00000000"
+            android:scaleType="centerInside"
+            android:src="@drawable/tab_box" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_toLeftOf="@id/map_tab_2"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_height="wrap_content"
+                android:layout_weight="87"
+                android:background="#00000000"
+                android:gravity="bottom"
+                android:scaleType="fitEnd"
+                android:src="#00000000" />
+
+            <ImageButton
+                android:id="@+id/map_tab_1"
+                android:layout_height="wrap_content"
+                android:layout_weight="244"
+                android:background="#00000000"
+                android:gravity="bottom"
+                android:scaleType="fitEnd"
+                android:src="@drawable/tab_personal" />
+
+            <ImageView
+                android:layout_height="wrap_content"
+                android:layout_weight="82"
+                android:background="#00000000"
+                android:gravity="bottom"
+                android:scaleType="fitEnd"
+                android:src="#00000000" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@+id/map_tab_2"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_height="wrap_content"
+                android:layout_weight="82"
+                android:background="#00000000"
+                android:gravity="bottom"
+                android:scaleType="fitEnd"
+                android:src="#00000000" />
+
+            <ImageButton
+                android:id="@+id/map_tab_3"
+                android:layout_height="wrap_content"
+                android:layout_weight="244"
+                android:background="#00000000"
+                android:gravity="bottom"
+                android:scaleType="fitEnd"
+                android:src="@drawable/tab_champion" />
+
+            <ImageView
+                android:layout_height="wrap_content"
+                android:layout_weight="87"
+                android:background="#00000000"
+                android:gravity="bottom"
+                android:scaleType="fitEnd"
+                android:src="#00000000" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>
+-->
+
+
+<!--
+        android:layout_alignParentBottom="true"
+	    android:layout_centerHorizontal="true"
+	    
+	    android:layout_width="wrap_content" 
+	    
+	    android:layout_alignParentBottom="true"
+		android:layout_toLeftOf="@id/map_tab_2"
+		
+		android:layout_alignParentBottom="true"
+		android:layout_toRightOf="@+id/map_tab_2" 
+		
+		
+		android:gravity="bottom"
+		
+		android:layout_alignParentBottom="true"
+		
+		
+	    android:gravity="bottom"
+	    android:scaleType="fitEnd"
+-->
